@@ -7,13 +7,14 @@
     "node": ">= 6.2.0"
   },
   "devDependencies": {
-    "@types/jest": "~16.0.3",
-    "@types/node": "~6.0.56",
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.26",
     "jest": "~18.1.0",
-    "rimraf": "~2.5.4",
-    "tslint": "~4.2.0",
-    "tslint-microsoft-contrib": "~4.0.0",
-    "typescript": "~2.1.4"
+    "rimraf": "^2.6.1",
+    "standard": "^10.0.3",
+    "tslint": "^5.7.0",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": "^2.5.2"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
